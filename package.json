@@ -1,0 +1,20 @@
+{
+  "name": "brexton-leaders-profile-android",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Dedicated Android wrapper for BREXTON Leaders Digital Profile",
+  "scripts": {
+    "android:sync": "cap sync android",
+    "assets:prepare": "node scripts/prepare-assets.cjs && capacitor-assets generate --android"
+  },
+  "dependencies": {
+    "@capacitor/android": "7.4.3",
+    "@capacitor/core": "7.4.3",
+    "@capacitor/splash-screen": "7.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "7.4.3",
+    "@capacitor/assets": "3.0.5",
+    "sharp": "0.33.5"
+  }
+}

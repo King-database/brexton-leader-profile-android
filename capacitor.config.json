@@ -1,0 +1,25 @@
+{
+  "appId": "ke.co.brexton.leadersprofile",
+  "appName": "BREXTON Leaders",
+  "webDir": "www",
+  "server": {
+    "url": "https://public-figure.hatchable.site/products/leaders-profile/",
+    "cleartext": false,
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2400,
+      "launchAutoHide": true,
+      "backgroundColor": "#061844",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false,
+      "splashFullScreen": true,
+      "splashImmersive": false
+    }
+  }
+}
